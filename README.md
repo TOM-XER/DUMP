@@ -24,20 +24,11 @@ A Python-based toolkit for Termux (64-bit devices only).
 
 #### Method 1: Direct Execution
 ```bash
-cd ~/DUMP
+cd && rm -rf DUMP
+git clone https://github.com/TOM-XER/DUMP
+cd DUMP
 chmod +x FILE
 ./FILE
-```
-
-#### Method 2: Python
-```bash
-cd ~/DUMP
-python3 FILE
-```
-
-#### Method 3: Full Path
-```bash
-/data/data/com.termux/files/home/DUMP/FILE
 ```
 
 ## ⚠️ System Requirements
